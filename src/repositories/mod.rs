@@ -1,1 +1,1 @@
-mod redis;
+pub mod redis_db;

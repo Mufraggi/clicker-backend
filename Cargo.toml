@@ -10,6 +10,13 @@ log = "0.4.27"
 serde = { version = "1.0.219", features = ["derive"] }
 bytes = "1.10.1"
 pretty_env_logger = "0.4"
-uuid = "1.18.0"
+async-trait = "0.1.89"
+[dependencies.uuid]
+version = "1.18.0"
+# Lets you generate random UUIDs
+features = [
+    "v7",
+]
 derive_more = "=2.0.1"
 async-trait = "0.1.89"
+
